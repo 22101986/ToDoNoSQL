@@ -1,4 +1,4 @@
-# ToDo App with JWT Authentication
+# ToDo App 
 
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-brightgreen)
