@@ -4,7 +4,8 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const router = express.Router();
 
-
+// Middleware to check if the user is authenticated
+//Register route
 router.post('/register', async (req, res) => {
   const { username, password } = req.body;
   const userExist = await User.findOne({ username });
@@ -16,7 +17,7 @@ router.post('/register', async (req, res) => {
   await user.save();
   res.json({ message: 'Inscription réussie' });
 });
-
+// Login route
 router.post('/login', async (req, res) => {
   const { username, password } = req.body;
   const user = await User.findOne({ username });
