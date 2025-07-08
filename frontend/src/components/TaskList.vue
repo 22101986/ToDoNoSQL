@@ -13,7 +13,7 @@
             </v-list-item-title>
             <v-list-item-subtitle>
               {{task.description}}<br>
-              <small>Assignée à : {{ (task.assignedTo && task.assignedTo.username) ? task.assignedTo.username : 'Moi' }}</small>
+              <small>Assignée à : {{ (task.assignedTo && task.assignedTo.username) ? 'Moi' : task.assignedTo.username }}</small>
             </v-list-item-subtitle>
           </v-list-item-content>
           <v-list-item-action>
