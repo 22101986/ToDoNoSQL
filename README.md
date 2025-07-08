@@ -4,6 +4,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-brightgreen)
 ![Express](https://img.shields.io/badge/Express-4.x-lightgrey)
 ![JWT](https://img.shields.io/badge/JWT-Auth-blue)
+![Vue.js](https://img.shields.io/badge/Vue.js-2.x-brightgreen)
 
 Une application ToDo simple avec backend Node.js/Express, authentification sécurisée par JWT et frontend en Vue.JS.
 
@@ -20,10 +21,6 @@ Une application ToDo simple avec backend Node.js/Express, authentification sécu
 - Node.js 18.x+
 - MongoDB 5.0+
 - npm 9.x+
+- Vue.js 
 
-## Installation
 
-1. Clonez le dépôt :
-```bash
-git clone https://github.com/votre-utilisateur/todo-jwt-app.git
-cd todo-jwt-app/backend
